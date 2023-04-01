@@ -1,0 +1,62 @@
+    {
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "brand": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "car_name": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "engine": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "fuel_type": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "km_driven": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "max_power": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "mileage": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "model": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "seats": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "seller_type": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "selling_price": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "transmission_type": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "vehicle_age": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    }
+  },
+  "title": "SampleRecord",
+  "type": "object"
+}
